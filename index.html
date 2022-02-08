@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="fetch.css">
+    </head>
+    <body class='body'>
+        <div id=form-container>  
+            <h1>Create Account</h1>
+        <form id="hw_form">
+            <div class='form-row'>
+            <label class='form-text'>
+                Name
+            </label>
+                <input  type="text" id="name" name="name" required />
+            
+            </div>
+            <div class='form-row'>
+            <label class='form-text'>
+                Email
+                <input  type="text" id="email" name="email" required />
+            </label>
+            </div>
+            <div class='form-row'>
+            <label class='form-text'>
+                Password
+                <input type="password" id="password" name="password" required />
+            </label class='form-text'>
+            </div>
+            <div class='form-row'>
+            <label class='form-text'>
+                Occupation
+                <select id="occupation" name="occupation" required></select>
+            </label>
+            </div>
+            <div class='form-row'>
+            <label class='form-text'>
+                State
+                <select id="state" name="state" required></select>
+            </label>
+            </div>
+            <button id='submit-btn' type="submit">Submit</button>
+        </form>
+        
+        </div>
+        
+        <script src="fetch.js" async defer></script>
+    </body>
+</html>
